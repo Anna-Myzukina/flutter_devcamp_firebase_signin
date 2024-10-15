@@ -1,7 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_devcamp_firebase_signin/firebase/firebase_options.dart';
-import 'package:flutter_devcamp_firebase_signin/sreens/bootstrap_app.dart';
+import 'package:flutter_devcamp_firebase_signin/sreens/login_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(colorSchemeSeed: Colors.blue),
-      home: BoostrapApp(),
+      home: const LoginScreen(),
     );
   }
 }

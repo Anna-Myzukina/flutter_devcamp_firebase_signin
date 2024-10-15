@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "138298802315",
-    "project_id": "signin-devcamp",
-    "storage_bucket": "signin-devcamp.appspot.com"
+    "project_number": "1043316750333",
+    "project_id": "fir-6e787",
+    "storage_bucket": "fir-6e787.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:138298802315:android:9e0f61431ecc7d5e78d48e",
+        "mobilesdk_app_id": "1:1043316750333:android:69b77fa2d4f73575bd4b94",
         "android_client_info": {
-          "package_name": "com.example.flutter_devcamp_fireb"
+          "package_name": "com.example.flutter_devcamp_firebase_signin"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyA4cmKxTYwMEvAHmdq_MGjOS6Sz7sU7lTY"
+          "current_key": "AIzaSyBVlUJCH9bXePW3A_zlwE6Tq9B496uQHIc"
         }
       ],
       "services": {

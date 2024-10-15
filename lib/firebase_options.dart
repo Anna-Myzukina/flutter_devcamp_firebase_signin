@@ -17,10 +17,7 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      throw UnsupportedError(
-        'DefaultFirebaseOptions have not been configured for web - '
-        'you can reconfigure this by running the FlutterFire CLI again.',
-      );
+      return web;
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
@@ -30,10 +27,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.macOS:
         return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -46,29 +40,47 @@ class DefaultFirebaseOptions {
     }
   }
 
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyCqV-9aciLjOwThB5GUBMwq7TcXaimO6jI',
+    appId: '1:1043316750333:web:4b65e96f6c5d9344bd4b94',
+    messagingSenderId: '1043316750333',
+    projectId: 'fir-6e787',
+    authDomain: 'fir-6e787.firebaseapp.com',
+    storageBucket: 'fir-6e787.appspot.com',
+  );
+
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA4cmKxTYwMEvAHmdq_MGjOS6Sz7sU7lTY',
-    appId: '1:138298802315:android:c74e1ce36fc90a5678d48e',
-    messagingSenderId: '138298802315',
-    projectId: 'signin-devcamp',
-    storageBucket: 'signin-devcamp.appspot.com',
+    apiKey: 'AIzaSyBVlUJCH9bXePW3A_zlwE6Tq9B496uQHIc',
+    appId: '1:1043316750333:android:69b77fa2d4f73575bd4b94',
+    messagingSenderId: '1043316750333',
+    projectId: 'fir-6e787',
+    storageBucket: 'fir-6e787.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyA9cV-sJtNR1LgZQOqVHadHFrzaj3poKw4',
-    appId: '1:138298802315:ios:7c9658f2ba64c7f078d48e',
-    messagingSenderId: '138298802315',
-    projectId: 'signin-devcamp',
-    storageBucket: 'signin-devcamp.appspot.com',
+    apiKey: 'AIzaSyAH5MuoXpSz8Vs9mQ0ztd4z7w_cjXm87ac',
+    appId: '1:1043316750333:ios:cfcd4a9eaf563378bd4b94',
+    messagingSenderId: '1043316750333',
+    projectId: 'fir-6e787',
+    storageBucket: 'fir-6e787.appspot.com',
     iosBundleId: 'com.example.flutterDevcampFirebaseSignin',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyA9cV-sJtNR1LgZQOqVHadHFrzaj3poKw4',
-    appId: '1:138298802315:ios:7c9658f2ba64c7f078d48e',
-    messagingSenderId: '138298802315',
-    projectId: 'signin-devcamp',
-    storageBucket: 'signin-devcamp.appspot.com',
+    apiKey: 'AIzaSyAH5MuoXpSz8Vs9mQ0ztd4z7w_cjXm87ac',
+    appId: '1:1043316750333:ios:cfcd4a9eaf563378bd4b94',
+    messagingSenderId: '1043316750333',
+    projectId: 'fir-6e787',
+    storageBucket: 'fir-6e787.appspot.com',
     iosBundleId: 'com.example.flutterDevcampFirebaseSignin',
+  );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyCqV-9aciLjOwThB5GUBMwq7TcXaimO6jI',
+    appId: '1:1043316750333:web:b2ca483c9721a367bd4b94',
+    messagingSenderId: '1043316750333',
+    projectId: 'fir-6e787',
+    authDomain: 'fir-6e787.firebaseapp.com',
+    storageBucket: 'fir-6e787.appspot.com',
   );
 }
