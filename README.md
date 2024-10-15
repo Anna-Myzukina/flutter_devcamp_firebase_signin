@@ -30,3 +30,36 @@ samples, guidance on mobile development, and a full API reference.
 <img src="https://github.com/Anna-Myzukina/flutter_devcamp_firebase_signin/blob/main/assets/screenshots/firebase11.png" height="400"> <img src="https://github.com/Anna-Myzukina/flutter_devcamp_firebase_signin/blob/main/assets/screenshots/firebase12.png" height="400"> <img src="https://github.com/Anna-Myzukina/flutter_devcamp_firebase_signin/blob/main/assets/screenshots/firebase13.png" height="400">
 
 <img src="https://github.com/Anna-Myzukina/flutter_devcamp_firebase_signin/blob/main/assets/screenshots/firebase14.png" height="400"> <img src="https://github.com/Anna-Myzukina/flutter_devcamp_firebase_signin/blob/main/assets/screenshots/firebase15.png" height="400">
+
+### As a result
+
+<img src="https://github.com/Anna-Myzukina/flutter_devcamp_2024/blob/main/screenshots/fire_app.png" height="400"> <img src="https://github.com/Anna-Myzukina/flutter_devcamp_2024/blob/main/screenshots/firebase_2.png" height="400">
+
+## 🤝 Contributing
+
+- Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+- Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Flutter lottie package - Lottie is a mobile library for Android and iOS that parses Adobe After Effects animations exported as json with Bodymovin and renders them natively on mobile!
+
+
+## 📝 License
+
+- This project is [MIT]() licensed.
+
+
+## Authors
+
+
+👤 **Author**
+
+- Github: [@Anna-Myzukina](https://github.com/githubhandle)
+- Linkedin: [Anna Muzykina](https://linkedin.com/linkedinhandle)
+- email: anna.muzykina83@gmail.com
