@@ -31,6 +31,21 @@ samples, guidance on mobile development, and a full API reference.
 
 <img src="https://github.com/Anna-Myzukina/flutter_devcamp_firebase_signin/blob/main/assets/screenshots/firebase14.png" height="400"> <img src="https://github.com/Anna-Myzukina/flutter_devcamp_firebase_signin/blob/main/assets/screenshots/firebase15.png" height="400">
 
+### Create users:
+
+<img src="https://github.com/Anna-Myzukina/flutter_devcamp_firebase_signin/blob/main/assets/screenshots/create%20collection.png" height="400"> <img src="https://github.com/Anna-Myzukina/flutter_devcamp_firebase_signin/blob/main/assets/screenshots/create%20users.png" height="400">
+
+<img src="https://github.com/Anna-Myzukina/flutter_devcamp_firebase_signin/blob/main/assets/screenshots/create%20users%202.png" height="400"> <img src="https://github.com/Anna-Myzukina/flutter_devcamp_firebase_signin/blob/main/assets/screenshots/create%20users%203.png" height="400">
+
+### Create Database
+
+<img src="https://github.com/Anna-Myzukina/flutter_devcamp_firebase_signin/blob/main/assets/screenshots/create%20database.png" height="400"> <img src="https://github.com/Anna-Myzukina/flutter_devcamp_firebase_signin/blob/main/assets/screenshots/create%20database2.png" height="400"> <img src="https://github.com/Anna-Myzukina/flutter_devcamp_firebase_signin/blob/main/assets/screenshots/create%20database%202.png" height="400">
+
+
+### Possible errors:
+
+<img src="https://github.com/Anna-Myzukina/flutter_devcamp_firebase_signin/blob/main/assets/screenshots/fix%20error.png" height="400"> <img src="https://github.com/Anna-Myzukina/flutter_devcamp_firebase_signin/blob/main/assets/screenshots/fix%20error.png" height="400">
+
 ### As a result
 
 <img src="https://github.com/Anna-Myzukina/flutter_devcamp_2024/blob/main/screenshots/fire_app.png" height="400"> <img src="https://github.com/Anna-Myzukina/flutter_devcamp_2024/blob/main/screenshots/firebase_2.png" height="400">
